@@ -20,5 +20,8 @@ int main() {
 	letter.pop_back(); // will remove the last element in the vector (C)
 	cout << letter.back(); // now it will show B instead of C
 
+	//remember to stay inside the vectors range
+	cout << letter.at(100); // the vector only has "0, 1" elements (A,B). This will throw a massive error. Hit red stop button and close out of vector class file.
+
 	return 0;
 }
